@@ -1,0 +1,14 @@
+{
+  "name": "shader-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "serve": "static -p 8000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-static": "^0.7.7"
+  }
+}
