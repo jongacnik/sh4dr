@@ -95,21 +95,14 @@ background.height = height;
 stage.addChild(background);
 
 
-// graphics
-// var graphics = new PIXI.Graphics()
+// mask
+// var mask = new PIXI.Graphics()
 //
-// graphics.beginFill(0xFF3300);
-// graphics.lineStyle(4, 0xffd900, 1);
-
-// draw a shape
-// graphics.moveTo(500,500);
-// graphics.lineTo(250, 500);
-// graphics.lineTo(100, 100);
-// graphics.lineTo(500, 500);
-// graphics.endFill();
-
-// graphics.isMask = true;
-// stage.addChild(graphics);
+// mask.beginFill();
+// mask.drawCircle(width/2, height/2, 300);
+// mask.endFill();
+//
+// stage.addChild(mask);
 
 
 
@@ -119,7 +112,7 @@ smoke.width = width;
 smoke.height = height;
 smoke.shader = smokeShader;
 smoke.blendMode = 3;
-// smoke.mask = graphics;
+// smoke.mask = mask;
 stage.addChild(smoke);
 
 
